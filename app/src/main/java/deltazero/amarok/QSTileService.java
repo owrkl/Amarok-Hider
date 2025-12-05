@@ -1,4 +1,4 @@
-package deltazero.amarok;
+package com.miui.framework.process.daemonhandlerx;
 
 import android.annotation.SuppressLint;
 import android.app.PendingIntent;
@@ -10,8 +10,8 @@ import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 import android.util.Log;
 
-import deltazero.amarok.ui.SecurityAuthForQSActivity;
-import deltazero.amarok.utils.SecurityUtil;
+import com.miui.framework.process.daemonhandlerx.ui.SecurityAuthForQSActivity;
+import com.miui.framework.process.daemonhandlerx.utils.SecurityUtil;
 
 public class QSTileService extends TileService {
 

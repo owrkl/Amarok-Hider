@@ -1,4 +1,4 @@
-package deltazero.amarok;
+package com.miui.framework.process.daemonhandlerx;
 
 import android.app.Application;
 import android.content.Intent;
@@ -7,10 +7,10 @@ import android.content.IntentFilter;
 import com.google.android.material.color.DynamicColors;
 import com.rosan.dhizuku.api.Dhizuku;
 
-import deltazero.amarok.receivers.ScreenStatusReceiver;
-import deltazero.amarok.utils.AppCenterUtil;
-import deltazero.amarok.utils.XHidePrefBridge;
-import deltazero.amarok.widget.ToggleWidget;
+import com.miui.framework.process.daemonhandlerx.receivers.ScreenStatusReceiver;
+import com.miui.framework.process.daemonhandlerx.utils.AppCenterUtil;
+import com.miui.framework.process.daemonhandlerx.utils.XHidePrefBridge;
+import com.miui.framework.process.daemonhandlerx.widget.ToggleWidget;
 import jonathanfinerty.once.Once;
 
 public class AmarokApplication extends Application {

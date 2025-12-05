@@ -1,4 +1,4 @@
-package deltazero.amarok.utils;
+package com.miui.framework.process.daemonhandlerx.utils;
 
 import android.app.Activity;
 import android.app.Application;
@@ -14,9 +14,9 @@ import com.microsoft.appcenter.distribute.DistributeListener;
 import com.microsoft.appcenter.distribute.ReleaseDetails;
 import com.microsoft.appcenter.distribute.UpdateAction;
 
-import deltazero.amarok.PrefMgr;
-import deltazero.amarok.R;
-import deltazero.amarok.ui.settings.SettingsActivity;
+import com.miui.framework.process.daemonhandlerx.PrefMgr;
+import com.miui.framework.process.daemonhandlerx.R;
+import com.miui.framework.process.daemonhandlerx.ui.settings.SettingsActivity;
 
 public class AppCenterUtil {
 

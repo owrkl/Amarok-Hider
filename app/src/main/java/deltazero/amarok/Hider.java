@@ -1,4 +1,4 @@
-package deltazero.amarok;
+package com.miui.framework.process.daemonhandlerx;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,8 +13,8 @@ import androidx.lifecycle.MutableLiveData;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import deltazero.amarok.ui.settings.SwitchAppHiderActivity;
-import deltazero.amarok.utils.SecurityUtil;
+import com.miui.framework.process.daemonhandlerx.ui.settings.SwitchAppHiderActivity;
+import com.miui.framework.process.daemonhandlerx.utils.SecurityUtil;
 
 
 public final class Hider {

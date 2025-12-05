@@ -1,4 +1,4 @@
-package deltazero.amarok.utils;
+package com.miui.framework.process.daemonhandlerx.utils;
 
 import android.app.Application;
 

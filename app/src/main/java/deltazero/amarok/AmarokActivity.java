@@ -1,4 +1,4 @@
-package deltazero.amarok;
+package com.miui.framework.process.daemonhandlerx;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -11,9 +11,9 @@ import androidx.core.view.WindowCompat;
 
 import java.util.List;
 
-import deltazero.amarok.ui.CalendarActivity;
-import deltazero.amarok.ui.SecurityAuthActivity;
-import deltazero.amarok.utils.SecurityUtil;
+import com.miui.framework.process.daemonhandlerx.ui.CalendarActivity;
+import com.miui.framework.process.daemonhandlerx.ui.SecurityAuthActivity;
+import com.miui.framework.process.daemonhandlerx.utils.SecurityUtil;
 
 public class AmarokActivity extends AppCompatActivity {
     

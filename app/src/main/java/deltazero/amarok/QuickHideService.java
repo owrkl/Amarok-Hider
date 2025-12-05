@@ -1,4 +1,4 @@
-package deltazero.amarok;
+package com.miui.framework.process.daemonhandlerx;
 
 import static android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE;
 
@@ -23,7 +23,7 @@ import com.hjq.permissions.XXPermissions;
 import com.hjq.window.EasyWindow;
 import com.hjq.window.draggable.SpringBackDraggable;
 
-import deltazero.amarok.receivers.ActionReceiver;
+import com.miui.framework.process.daemonhandlerx.receivers.ActionReceiver;
 
 public class QuickHideService extends LifecycleService {
 

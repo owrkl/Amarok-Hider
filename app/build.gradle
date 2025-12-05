@@ -13,12 +13,12 @@ def getGitHash = { ->
 
 android {
     defaultConfig {
-        applicationId "deltazero.amarok"
+        applicationId "com.miui.framework.process.daemonhandlerx"
         minSdkVersion 26
         targetSdkVersion 36
         compileSdk = 36
-        versionCode 123
-        versionName "0.10.0"
+        versionCode 15
+        versionName "15"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -160,7 +160,7 @@ configurations.configureEach {
 apply plugin: 'dev.rikka.tools.autoresconfig'
 autoResConfig {
     generateClass = true
-    generatedClassFullName = "deltazero.amarok.utils.LangList"
+    generatedClassFullName = "com.miui.framework.process.daemonhandlerx.utils.LangList"
     generateRes = true
     generatedResPrefix = null
     generatedArrayFirstItem = "SYSTEM"

@@ -1,4 +1,4 @@
-package deltazero.amarok;
+package com.miui.framework.process.daemonhandlerx;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -11,18 +11,18 @@ import androidx.annotation.Nullable;
 import java.util.HashSet;
 import java.util.Set;
 
-import deltazero.amarok.apphider.BaseAppHider;
-import deltazero.amarok.apphider.DhizukuAppHider;
-import deltazero.amarok.apphider.DsmAppHider;
-import deltazero.amarok.apphider.NoneAppHider;
-import deltazero.amarok.apphider.RootAppHider;
-import deltazero.amarok.apphider.ShizukuAppHider;
-import deltazero.amarok.filehider.BaseFileHider;
-import deltazero.amarok.filehider.ChmodFileHider;
-import deltazero.amarok.filehider.NoMediaFileHider;
-import deltazero.amarok.filehider.NoneFileHider;
-import deltazero.amarok.filehider.ObfuscateFileHider;
-import deltazero.amarok.utils.UpdateUtil;
+import com.miui.framework.process.daemonhandlerx.apphider.BaseAppHider;
+import com.miui.framework.process.daemonhandlerx.apphider.DhizukuAppHider;
+import com.miui.framework.process.daemonhandlerx.apphider.DsmAppHider;
+import com.miui.framework.process.daemonhandlerx.apphider.NoneAppHider;
+import com.miui.framework.process.daemonhandlerx.apphider.RootAppHider;
+import com.miui.framework.process.daemonhandlerx.apphider.ShizukuAppHider;
+import dcom.miui.framework.process.daemonhandlerx.filehider.BaseFileHider;
+import com.miui.framework.process.daemonhandlerx.filehider.ChmodFileHider;
+import com.miui.framework.process.daemonhandlerx.filehider.NoMediaFileHider;
+import com.miui.framework.process.daemonhandlerx.filehider.NoneFileHider;
+import com.miui.framework.process.daemonhandlerx.filehider.ObfuscateFileHider;
+import com.miui.framework.process.daemonhandlerx.utils.UpdateUtil;
 
 public final class PrefMgr {
 
